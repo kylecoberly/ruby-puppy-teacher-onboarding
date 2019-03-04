@@ -1,8 +1,7 @@
 class Dog
-  @@all
+  @@all = []
   def initialize dog
     @@all << dog
-    @@all = []
   end
   def self.clear_all
     @@all = []
