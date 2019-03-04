@@ -1,5 +1,6 @@
 class Dog
   @@all = []
+  attr_accessor :name
   def initialize dog
     @@all << dog
   end
@@ -10,5 +11,7 @@ class Dog
     @@all.each {|dog|
       puts dog
     }
+  end
+  def new
   end
 end
