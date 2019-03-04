@@ -13,7 +13,4 @@ class Dog
       puts dog
     }
   end
-  def self.new dog
-    
-  end
 end
