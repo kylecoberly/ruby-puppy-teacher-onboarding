@@ -2,7 +2,6 @@ class Dog
   @@all = []
   attr_accessor :name
   def initialize dog
-    @@all << dog
     @name = dog
   end
   def self.clear_all
@@ -14,6 +13,6 @@ class Dog
     }
   end
   def self.new dog
-    @@all = dog
+    @@all << dog
   end
 end
