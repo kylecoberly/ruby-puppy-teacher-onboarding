@@ -13,6 +13,7 @@ class Dog
       puts dog
     }
   end
-  def new
+  def self.new dog
+    @@all << dog
   end
 end
